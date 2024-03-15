@@ -1,0 +1,390 @@
+body {
+    padding-top: 0px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 42px;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+}
+
+.logo {
+    width: 300px;
+}
+
+.contact-button {
+    border: 2px solid rgb(236, 102, 96);
+    color: rgb(236, 102, 96);
+    border-radius: 40px;
+    padding: 20px 38px;
+    transition: all 0.4s;
+    font-family: Montserrat, sans-serif;
+}
+
+.contact-button:hover {
+    background-color: rgb(236, 102, 96);
+    color: #fff;
+}
+
+.nav-links {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.linkedin {
+    height: 16px;
+}
+
+.email {
+    height: 28px;
+}
+
+.insta {
+    height: 16px;
+}
+
+a {
+    padding: 0 10px;
+}
+
+.homepage h2 {
+    font-size: 56px;
+    font-family: Montserrat, sans-serif;
+    width: 55%;
+    line-height: 68px;
+    padding: 200px 42px 10px 42px;
+}
+
+.banner-img {
+    padding: 17px 42px 98px 42px;
+}
+
+.homefeed-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    background-color: #ebebeb;
+    padding: 0 42px;
+}
+
+.homefeed-container-reversed {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    background-color: #fff;
+    padding: 0 42px;
+}
+
+.img-div {
+    flex: 1.2;
+    width: 100%;
+    padding: 93px 0;
+}
+
+.img-div img {
+    width: 100%;
+}
+
+.content {
+    flex: 1;
+    font-family: Montserrat, sans-serif;
+}
+
+.content p {
+    font-size: 16px;
+    padding: 20px 0 50px 0;
+}
+
+.content a, .homepage-contact button {
+    border: 2px solid rgb(236, 102, 96);
+    color: rgb(236, 102, 96);
+    border-radius: 40px;
+    padding: 20px 38px;
+    transition: all 0.4s;
+}
+
+.content a:hover, .homepage-contact button:hover {
+    background-color: rgb(236, 102, 96);
+    color: #fff;
+}
+
+.heading {
+    font-size: 41px;
+}
+
+.testamonies {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 92px 42px;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+}
+
+.testamonies.dark {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 92px 42px;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    background-color: #ebebeb;
+}
+
+.testamonies p {
+    padding-bottom: 25px;
+    line-height: 32px;
+}
+
+.testamony-content {
+    flex: 1;
+}
+
+.homepage-contact {
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 56px 42px;
+    font-family: Montserrat, sans-serif;
+}
+
+.homepage-contact p {
+    padding-bottom: 40px;
+}
+
+.aboutUs {
+    padding-top: 200px;
+    font-family: Montserrat, sans-serif;
+}
+
+.vision {
+    padding: 50px 220px;
+    text-align: center;
+}
+
+.vision h2 {
+    font-size: 42px;
+    line-height: 55px;
+    padding: 30px 0;
+}
+
+.aboutUs-container {
+    display: flex;
+    gap: 150px;
+    padding: 100px 42px;
+    background-color: #ebebeb;
+}
+
+.aboutUs-container div {
+    flex: 1;
+}
+
+.aboutUs-content p {
+    font-size: 17px;
+    padding-bottom: 20px;
+    line-height: 32px;
+}
+
+.sector-section {
+    padding-top: 200px;
+}
+
+.sectors {
+    display: flex;
+    gap: 40px;
+    padding: 100px 42px 100px 42px;
+}
+
+.sectors-dark {
+    display: flex;
+    gap: 40px;
+    padding: 100px 42px 100px 42px;
+    background-color: #ebebeb;
+}
+
+.sector-card {
+    flex: 1;
+    padding: 17px 0;
+}
+
+.sector-card img {
+    min-height: 500px;
+    max-height: 500px;
+    width: 100%;
+    object-fit:cover;
+    overflow: hidden;
+    padding-bottom: 34px;
+}
+
+.sector-card h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+.sector-card p {
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.form-section {
+    background-color: #ebebeb;
+    display: flex;
+    padding: 100px 42px;
+    gap: 150px;
+}
+
+.form-img {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.form-img img {
+    width: 520px;
+    height: 520px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.form-content {
+    flex: 1;
+}
+
+.form-content form {
+    padding-top: 30px;
+}
+
+input#name  {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #A9A9A9;
+}
+
+.form-content textarea {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #A9A9A9;
+}
+
+.name-flexbox {
+    display: flex;
+    gap: 10px;
+}
+
+.permission p {
+    padding: 8px 0;
+}
+
+.email-box {
+    padding: 20px 0;
+}
+
+#checkbox {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.testamonials-page {
+    padding-top: 200px;
+    font-family: Montserrat, sans-serif;
+}
+
+.testamonials-page h3 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.privacy {
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    line-height: 32px;
+    padding-top: 200px;
+    margin: 0 auto;
+    max-width: 645px;
+}
+
+
+.privacy div {
+    padding-bottom: 50px;
+}
+
+.privacy-section p {
+    padding-bottom: 20px;
+}
+
+.privacy-section ul {
+    padding-left: 40px;
+}
+
+.privacy-section li {
+    list-style-type: disc;
+}
+
+.cookies {
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+    line-height: 32px;
+    padding-top: 200px;
+    margin: 0 auto;
+    max-width: 645px;
+}
+
+.cookies h3, .privacy h3 {
+    font-size: 42px;
+    padding-bottom: 50px;
+}
+
+.cookies-question {
+    padding-bottom: 60px;
+}
+
+.cookies-question p {
+    margin-top: 20px;
+}
+
+.cookies-question a{
+    color: rgb(236, 102, 96);
+    text-decoration: underline;
+    padding: 4px;
+}
+
+.cookies-question small {
+    font-size: 11px;
+}
+
+.cookies-question ul {
+    padding-left: 40px;
+}
+
+.cookies-question li {
+    list-style-type: disc;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 42px;
+    font-size: 11px;
+    color: rgb(236, 102, 96);
+    text-decoration: underline;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
